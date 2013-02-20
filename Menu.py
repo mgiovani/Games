@@ -107,7 +107,642 @@ elif opcao==2:
 elif opcao==3:
 	print "Coloque seu codigo aqui"
 elif opcao==4:
-	print "Coloque seu codigo aqui"
+	print ('')
+    print('		??????????')
+    print('		??	??')
+    print('		??	??')
+    print('		??	??')
+    print('			??')
+    print('			??  BEM VINDO AO QUIZ')
+    print('		       ?? ')
+    print('		      ??  ')
+    print('		     ??   ')
+    print('                    ?? ')
+    print('                    ?? ')
+    print('                    ?? ')
+    print('                    ?? ')
+    print('')                  
+    print('                    ??')			
+    print ('\n\nAo final das perguntas, digite a resposta que achar correta, sempre com letras minúsculas.' )
+    print('\nCaso queira abandonar o jogo, digite s, quando for solicitado algo para continuar.')
+	
+       
+    a= raw_input ('Digite algo para começar ' )
+    os.system('cls')
+    while a!= 's':
+        cont=0
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('O comando para escrever algo na tela usando python é:')
+        print('a)print')
+        print('b)write')
+        print('c)printf')
+        op=raw_input('d)raw_input\n')
+
+        if op=='a':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('São cursos relativos à informática, exceto: ')
+        print('a)Sistemas de Informação')
+        print('b)Engenharia de Sistemas')
+        print('c)Administração')
+        op=raw_input('d)NDA \n')
+        if op== 'c':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('São áreas de atuação dos profissionais de informática, exceto: ')
+        print('a)Suporte Técnico')
+        print('b)Programação')
+        print('c)Web Designer')
+        op=raw_input('d)Medicina \n')
+        if op== 'd':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('A sigla BI, significa: ')
+        print('a)Better Input')
+        print('b)Byte issue')
+        print('c)Business Intelligence')
+        op=raw_input('d)NDA \n')
+        if op== 'c':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('MatLab é uma linguagem mais voltada para:')
+        print('a)Programar para internet')
+        print('b)Funções matemáticas')
+        print('c)Programar para celulares')
+        op=raw_input('d)NDA \n')
+        if op== 'b':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('Sobre a função recursiva, é correto afirmar: ')
+        print('a)Ela invoca a função principal')
+        print('b)Ela é capaz de refazer ações feitas anteriormente em outra função')
+        print('c)Ela pode reexecutar o programa a partir daquele ponto')
+        op=raw_input('d)NDA \n')
+        if op== 'd':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('Sobre o servidor DNS, é correto afirmar: ')
+        print('a)Possibilita que usuários de computadores clientes usem nomes, ao invés de IPs, para identificar hosts remotos')
+        print('b)Ele é capaz de devolver o endereço IP ao cliente que o requisitou')
+        print('c)a e b estão corretas')
+        op=raw_input('d)a e b estão incorretas \n')
+        if op=='c' :
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('Sobre o Android, pode-se afirmar: ')
+        print('a)Roda apenas em celulares LG')
+        print('b)Foi baseado no Kernel Linux')
+        print('c)Tem o código fechado')
+        op=raw_input('d)NDA \n')
+        if op== 'b':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('É algo comum ao Windows 8, Ubuntu e ao Mac Os')
+        print('a)Tem código fechado')
+        print('b)Foram criados pela mesma empresa')
+        print('c)Tem código aberto')
+        op=raw_input('d)São sistemas operacionais \n')
+        if op== 'd':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('O que é um banco de dados ?')
+        print('a)Uma ferramenta que apenas guarda dados')
+        print('b)Um livro que guarda dados')
+        print('c)Um programa que guarda dados')
+        op=raw_input('d)Um sistema que reúne e mantém organizada uma série de informações \n')
+
+        if op=='d' :
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('A partir do Python 3, o seguinte comando não existe mais: ')
+        print('a)input')
+        print('b)raw_input')
+        print('c)print')
+        op=raw_input('d)elif \n')
+
+        if op== 'b':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('Na linguagem Python, se declarada uma string= ''abcdefg'', a posição string[-3] é a letra: ')
+        print('a)c')
+        print('b)f')
+        print('c)e')
+        op=raw_input('d)Não existe \n') 
+
+        if op== 'c':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('Com relação ao Raid 0, é correto afirmar: ')
+        print('a)Ele divide os arquivos entre os HDs')
+        print('b)Caso um dos HDs do sistema seja danificado, ele é capaz de continuar os processos')
+        print('c)Ele copia um HD para outro')
+        op=raw_input('d)NDA \n') 
+       
+        if op== 'a':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('Em Matlab, para se apagar as variáveis sendo usadas, é usado o comando:')
+        print('a)clc')
+        print('b)clear all')
+        print('c)clean')
+        op=raw_input('d)erase \n') 
+       
+        if op== 'b':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('Em Matlab, ao final do if é necessário: ')
+        print('a)else')
+        print('b)elif')
+        print('c)end')
+        op=raw_input('d)NDA \n')
+
+        if op== 'c':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('O que é o Git?')
+        print('a)Um sistema de controle de versão')
+        print('b)Uma linguagem de programação')
+        print('c)Um sistema operacional')
+        op=raw_input('d)NDA \n')
+
+        if op== 'a':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('O comando para se definir uma nova versão em Python é:')
+        print('a)fnc')
+        print('b)function')
+        print('c)def')
+        op=raw_input('d)NDA \n') 
+       
+        if op== 'b':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('Em Python, para se ver os atributos de uma variável é necessário o comando:')
+        print('a)atrib')
+        print('b)list')
+        print('c)show')
+        op=raw_input('d)dir \n') 
+       
+        if op== 'd':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('O que é o Proxy?')
+        print('a)É uma linguagem de programação')
+        print('b)É o nome do 1º computador')
+        print('c)É o nome de um firewall')
+        op=raw_input('d)NDA \n') 
+       
+        if op== 'd':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar e s caso queira sair ' )
+        if a=='s':
+            if cont<=100:
+                print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+            elif (cont>100 and cont<=140):
+                print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+            elif (cont>140 and cont<=180):
+                print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+            elif (cont>180 and cont<=200):
+                print('\tVocê fez %d pontos. Excelente!!!'%cont)
+            cont=0
+            print('\tObrigado por jogar!!!')
+            break
+        os.system('cls')
+        print('		***************')
+        print('		 Seus pontos:')
+        print('		             ')
+        print('		    %d        '%cont)
+        print('                             ')
+        print('		***************')
+        print('Em python, dado o vetor frase=''abcd'',se dado o comando frase[1::2](no Python Shell), aparecerão as letras')
+        print('a)ad')
+        print('b)ac')
+        print('c)cd')
+        op=raw_input('d)bc \n')
+       
+        if op== 'd':
+            cont+=10
+            print('Resposta correta. Você ganhou mais 10 pontos!!!')
+        else:
+            print('Resposta errada')
+        a= raw_input ('Digite algo para continuar ' )
+        os.system('cls')
+       
+        if cont<=100:
+            print('\tVocê fez %d pontos. Pode ser melhor!!!'%cont)
+        elif (cont>100 and cont<=140):
+            print('\tVocê fez %d pontos. Isto foi bom!!!'%cont)
+        elif (cont>140 and cont<=180):
+            print('\tVocê fez %d pontos. Parabéns!!!'%cont)
+        elif (cont>180 and cont<=200):
+            print('\tVocê fez %d pontos. Excelente!!!'%cont)
+        cont=0
+        print('\tObrigado por jogar!!!')
+
 elif opcao==5:
 	print "Coloque seu codigo aqui"
 else:
