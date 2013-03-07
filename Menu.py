@@ -22,6 +22,8 @@ elif opcao==2:
         derrotas2 =0
         jg1 = 1
         jg2 = 1
+        
+  
         #variaveis
 
         #menu
