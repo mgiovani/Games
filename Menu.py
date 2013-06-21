@@ -242,7 +242,7 @@ elif opcao==2:
                 jg2 = random.randint(1,3)
                 jg2 = int(jg2)
                 if(jg1 != 0):
-                    'PC:',jg2
+                    print 'PC:',jg2
 	
                 if(jg1 == jg2):
                     empates+=1
