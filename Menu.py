@@ -882,6 +882,7 @@ elif opcao==4:
         print('a)É uma linguagem de programação')
         print('b)É o nome do 1º computador')
         print('c)É o nome de um firewall')
+        print('d)NDA')
         op=raw_input('d)NDA \n') 
        
         if op== 'd':
